@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2011 rel. 2 sp1 (seven) 使用XMLSpy vIBM编辑的 (http://www.altova.com) by -->
+<!-- type:关卡类型，1为普通关卡；2为逃脱关卡
+level: 
+        LV：关卡等级，SABC
+        bulletDam：该关卡通用子弹伤害
+        exp：关卡胜利获得经验
+        money：关卡胜利获得金钱
+        drop：关卡胜利掉落装备
+monster:
+		monsterType:1 小怪、2 中怪、3 大怪、4 精英怪、5 BOSS
+        atk_value:对应怪物的子弹伤害；hp：血量；def:防御值。
+        dropGold:怪物掉落的“金币”数量
+
+-->
+<Config>
+	<mission id="1" mission="101" name="101" intro="101" scene="101" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" bulletType="1" atk_value="1" hp="200" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100004" monsterType="1" bulletType="2" atk_value="1" hp="400" def="30" dropGold="2"/>
+			<monster id="3" monsterId="100005" monsterType="1" bulletType="2" atk_value="1.5" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100006" monsterType="2" bulletType="4" atk_value="1.5" hp="1000" def="50" dropGold="20"/>
+			<monster id="5" monsterId="100008" monsterType="2" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="6" monsterId="100009" monsterType="3" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="7" monsterId="100010" monsterType="3" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="8" monsterId="200002" monsterType="4" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="9" monsterId="300002" monsterType="5" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="6800" camSpeed="300" camAngle="0"/>
+			<camMove id="3" Xposition="11400" camSpeed="130" camAngle="0"/>
+			<camMove id="4" Xposition="20000" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" bulletType="1" atk_value="1" hp="200" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100004" monsterType="1" bulletType="2" atk_value="1" hp="400" def="30" dropGold="2"/>
+			<monster id="3" monsterId="100005" monsterType="1" bulletType="2" atk_value="1.5" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100006" monsterType="2" bulletType="4" atk_value="1.5" hp="1000" def="50" dropGold="20"/>
+			<monster id="5" monsterId="100008" monsterType="2" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="6" monsterId="100009" monsterType="3" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="7" monsterId="100010" monsterType="3" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="8" monsterId="200002" monsterType="4" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="9" monsterId="300002" monsterType="5" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="6800" camSpeed="300" camAngle="0"/>
+			<camMove id="3" Xposition="11400" camSpeed="130" camAngle="0"/>
+			<camMove id="4" Xposition="20000" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" bulletType="1" atk_value="1" hp="200" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100004" monsterType="1" bulletType="2" atk_value="1" hp="400" def="30" dropGold="2"/>
+			<monster id="3" monsterId="100005" monsterType="1" bulletType="2" atk_value="1.5" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100006" monsterType="2" bulletType="4" atk_value="1.5" hp="1000" def="50" dropGold="20"/>
+			<monster id="5" monsterId="100008" monsterType="2" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="6" monsterId="100009" monsterType="3" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="7" monsterId="100010" monsterType="3" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="8" monsterId="200002" monsterType="4" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="9" monsterId="300002" monsterType="5" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="6800" camSpeed="300" camAngle="0"/>
+			<camMove id="3" Xposition="11400" camSpeed="130" camAngle="0"/>
+			<camMove id="4" Xposition="20000" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" bulletType="1" atk_value="1" hp="200" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100004" monsterType="1" bulletType="2" atk_value="1" hp="400" def="30" dropGold="2"/>
+			<monster id="3" monsterId="100005" monsterType="1" bulletType="2" atk_value="1.5" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100006" monsterType="2" bulletType="4" atk_value="1.5" hp="1000" def="50" dropGold="20"/>
+			<monster id="5" monsterId="100008" monsterType="2" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="6" monsterId="100009" monsterType="3" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="7" monsterId="100010" monsterType="3" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="8" monsterId="200002" monsterType="4" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<monster id="9" monsterId="300002" monsterType="5" bulletType="5" atk_value="2" hp="5000" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="6800" camSpeed="300" camAngle="0"/>
+			<camMove id="3" Xposition="11400" camSpeed="130" camAngle="0"/>
+			<camMove id="4" Xposition="20000" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="2" mission="102" name="102" intro="102" scene="102" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="3" mission="103" name="103" intro="103" scene="103" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="4" mission="104" name="104" intro="104" scene="104" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="5" mission="105" name="105" intro="105" scene="105" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="6" mission="106" name="106" intro="106" scene="106" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="7" mission="107" name="107" intro="107" scene="107" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="8" mission="108" name="101" intro="101" scene="101" type="2">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="9" mission="201" name="102" intro="102" scene="102" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="10" mission="202" name="103" intro="103" scene="103" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="11" mission="203" name="104" intro="104" scene="104" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="12" mission="204" name="105" intro="105" scene="105" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="13" mission="205" name="106" intro="106" scene="106" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="14" mission="206" name="107" intro="107" scene="107" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="15" mission="207" name="107" intro="107" scene="107" type="1">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+	<mission id="16" mission="208" name="107" intro="107" scene="107" type="2">
+		<level id="1" lV="C" bulletDam="100" exp="100" money="40" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="50" def="30" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="100" def="30" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="200" def="30" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="300" def="30" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="600" def="50" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="1500" def="70" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="2" lV="B" bulletDam="120" exp="150" money="80" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="A" bulletDam="150" exp="200" money="120" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+		<level id="3" lV="S" bulletDam="200" exp="300" money="200" drop="0">
+			<monster id="1" monsterId="100001" monsterType="1" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="2" monsterId="100002" monsterType="2" atk_value="1" hp="0" def="0" dropGold="1"/>
+			<monster id="3" monsterId="100003" monsterType="2" atk_value="1" hp="0" def="0" dropGold="2"/>
+			<monster id="4" monsterId="100004" monsterType="2" atk_value="1.5" hp="0" def="0" dropGold="2"/>
+			<monster id="5" monsterId="200001" monsterType="4" atk_value="1.5" hp="0" def="0" dropGold="20"/>
+			<monster id="6" monsterId="200002" monsterType="5" atk_value="2" hp="0" def="0" dropGold="40"/>
+			<camMove id="1" Xposition="0" camSpeed="100" camAngle="0"/>
+			<camMove id="2" Xposition="9000" camSpeed="200" camAngle="0"/>
+			<camMove id="3" Xposition="13000" camSpeed="100" camAngle="0"/>
+			<camMove id="4" Xposition="16957" camSpeed="0" camAngle="0"/>
+		</level>
+	</mission>
+</Config>

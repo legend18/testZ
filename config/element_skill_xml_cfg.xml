@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
+	<role typeid="301001" skillId="1" bullettextures="pbullet01.png" collisionBoxX="65" collisionBoxY="25" isKeepFollow="false" bulletSpeed="1200" bulletDuration="0.2" keepLen="0"/>
+	<role typeid="301002" skillId="2" bullettextures="pbullet01.png" collisionBoxX="65" collisionBoxY="25" isKeepFollow="false" bulletSpeed="1320" bulletDuration="0.2" keepLen="0"/>
+	<role typeid="301003" skillId="3" bullettextures="pbullet01.png" collisionBoxX="65" collisionBoxY="25" isKeepFollow="false" bulletSpeed="1450" bulletDuration="0.2" keepLen="0"/>
+	<role typeid="301004" skillId="4" bullettextures="pbullet01.png" collisionBoxX="65" collisionBoxY="25" isKeepFollow="false" bulletSpeed="1595" bulletDuration="0.2" keepLen="0"/>
+	<role typeid="302001" skillId="1" bullettextures="0" collisionBoxX="20" collisionBoxY="10" isKeepFollow="false" bulletSpeed="1300" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="302002" skillId="2" bullettextures="0" collisionBoxX="30" collisionBoxY="20" isKeepFollow="false" bulletSpeed="1430" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="302003" skillId="3" bullettextures="0" collisionBoxX="20" collisionBoxY="10" isKeepFollow="false" bulletSpeed="1570" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="302004" skillId="4" bullettextures="0" collisionBoxX="30" collisionBoxY="20" isKeepFollow="false" bulletSpeed="1725" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="303001" skillId="1" bullettextures="0" collisionBoxX="20" collisionBoxY="10" isKeepFollow="false" bulletSpeed="1300" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="303002" skillId="2" bullettextures="0" collisionBoxX="30" collisionBoxY="20" isKeepFollow="false" bulletSpeed="1300" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="303003" skillId="3" bullettextures="0" collisionBoxX="20" collisionBoxY="10" isKeepFollow="false" bulletSpeed="1400" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="303004" skillId="4" bullettextures="0" collisionBoxX="30" collisionBoxY="20" isKeepFollow="false" bulletSpeed="1400" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="303005" skillId="1" bullettextures="0" collisionBoxX="20" collisionBoxY="10" isKeepFollow="false" bulletSpeed="1500" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="303006" skillId="2" bullettextures="0" collisionBoxX="20" collisionBoxY="10" isKeepFollow="false" bulletSpeed="1500" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="303007" skillId="3" bullettextures="0" collisionBoxX="30" collisionBoxY="20" isKeepFollow="false" bulletSpeed="1600" bulletDuration="0.5" keepLen="0"/>
+	<role typeid="303008" skillId="4" bullettextures="0" collisionBoxX="30" collisionBoxY="20" isKeepFollow="false" bulletSpeed="1600" bulletDuration="0.5" keepLen="0"/>
+</item>
