@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<item>
-	<role skillId="3" detail="上下2枚爆炸弹" collisionBoxX="20" collisionBoxY="20" isThrough="0" slowGoalfactor="0" slowGoalkeepTime="0" sputterradior="30" sputterharmFactor="0.2" lightradior="0" lightharmVal="0" lightkeepTime="0" absorbValaddHeat="0" absorbValdecSpeed="0" reflexdecAttack="0" reflexaddHeat="0" reflexdecSpeed="0" isKeepFollow="false" spawnNum="2" attackVal="45" bulletSpeed="1000" bulletDuration="1" offsetPosX="50" offsetPosY="0" offsetAngle="0" keepLen="600" isHitGoalRemove="1"/>
-	<role skillId="4" detail="上下4枚爆炸弹" collisionBoxX="20" collisionBoxY="20" isThrough="0" slowGoalfactor="0" slowGoalkeepTime="0" sputterradior="30" sputterharmFactor="0.2" lightradior="0" lightharmVal="0" lightkeepTime="0" absorbValaddHeat="0" absorbValdecSpeed="0" reflexdecAttack="0" reflexaddHeat="0" reflexdecSpeed="0" isKeepFollow="false" spawnNum="4" attackVal="45" bulletSpeed="1000" bulletDuration="0.5" offsetPosX="0" offsetPosY="0" offsetAngle="20" keepLen="700" isHitGoalRemove="1"/>
-</item>
