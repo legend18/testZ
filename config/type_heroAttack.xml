@@ -11,7 +11,7 @@ bulletSpace   单次攻击间隔  单位 秒
 bulletDuration   单次攻击内的子弹间隔   单位 秒   若为 -1 则单次攻击就一枚子弹
 bulletDamValue   单个子弹的伤害系数 M   子弹攻击力= M* 角色攻击力-->
 <Config>
-	<type_heroAttack ID="1" hero="1" level="1" bulletPic="bMage_nmBullet1.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="2400" bulletSpace="0.1" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="1" hero="1" level="1" bulletPic="bMage_nmBullet1.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="2400" bulletSpace="0.17" bulletDuration="-1" bulletDamValue="1"/>
 	<type_heroAttack ID="2" hero="1" level="2" bulletPic="bMage_nmBullet2.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="810" bulletSpace="0.5" bulletDuration="-1" bulletDamValue="1"/>
 	<type_heroAttack ID="3" hero="1" level="3" bulletPic="bMage_nmBullet3.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="820" bulletSpace="0.49" bulletDuration="-1" bulletDamValue="1"/>
 	<type_heroAttack ID="4" hero="1" level="4" bulletPic="bMage_nmBullet4.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="830" bulletSpace="0.49" bulletDuration="-1" bulletDamValue="1"/>
