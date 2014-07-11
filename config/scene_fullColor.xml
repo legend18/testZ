@@ -61,4 +61,7 @@
     <scenemap id="11">
         <fullcolor  name = "scenes/sceneB/scB_pt1_fullColor"/>
     </scenemap>
+    <scenemap id="12">
+        <fullcolor  name = "scenes/sceneB/scB_pt4_fullColor"/>
+    </scenemap>
 </item>
