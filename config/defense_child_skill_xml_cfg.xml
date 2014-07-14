@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<item>
-	<role skillId="3" detail="上下2道激光束" collisionBoxX="1280" collisionBoxY="10" isThrough="0.2" slowGoalfactor="0" slowGoalkeepTime="0" sputterradior="0" sputterharmFactor="0" lightradior="0" lightharmVal="0" lightkeepTime="0" absorbValaddHeat="0" absorbValdecSpeed="0" reflexdecAttack="0" reflexaddHeat="0" reflexdecSpeed="0" isKeepFollow="false" spawnNum="2" attackVal="30" bulletSpeed="2000" bulletDuration="0" offsetPosX="0" offsetPosY="100" offsetAngle="0" keepLen="0" isHitGoalRemove="0"/>
-	<role skillId="4" detail="上下2道激光束" collisionBoxX="1280" collisionBoxY="25" isThrough="0.2" slowGoalfactor="0" slowGoalkeepTime="0" sputterradior="0" sputterharmFactor="0" lightradior="0" lightharmVal="0" lightkeepTime="0" absorbValaddHeat="0" absorbValdecSpeed="0" reflexdecAttack="0" reflexaddHeat="0" reflexdecSpeed="0" isKeepFollow="false" spawnNum="2" attackVal="45" bulletSpeed="2000" bulletDuration="0" offsetPosX="0" offsetPosY="100" offsetAngle="0" keepLen="0" isHitGoalRemove="0"/>
-</item>
