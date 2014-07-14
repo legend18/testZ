@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<mons id="100001" name="独眼怪1" monsType="1" icon="icon100001" intro="0" resName="S-bird" armName="S-bird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="100002" name="独眼怪2" monsType="1" icon="icon100002" intro="0" resName="S-bird" armName="S-bird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="100003" name="独眼怪3" monsType="1" icon="icon100003" intro="0" resName="S-bird" armName="S-bird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="100004" name="小鸟" monsType="1" icon="icon100004" intro="0" resName="S-bird" armName="S-bird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="100005" name="小蜜蜂" monsType="1" icon="icon100005" intro="0" resName="S-bird" armName="S-bird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="100006" name="树人" monsType="2" icon="icon100006" intro="0" resName="Treeman" armName="Treeman" bFilpx="1" skill1="0" skill2="0" skill3="0">
+		<animation aniName="Treeman_move" nextAniNm="Treeman_move"/>
+		<animation aniName="Treeman_attack" nextAniNm="Treeman_move"/>
+	</mons>
+	<mons id="100007" name="藤蔓怪" monsType="2" icon="icon100007" intro="0" resName="S-bird" armName="S-bird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="100008" name="食人花" monsType="2" icon="icon100008" intro="0" resName="shirenhua" armName="shirenhua" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="shirenhua_hold" nextAniNm="shirenhua_hold"/>
+		<animation aniName="shirenhua_attack" nextAniNm="shirenhua_hold"/>
+	</mons>
+	<mons id="100009" name="漂浮巨石" monsType="3" icon="icon100009" intro="0" resName="S-bird" armName="S-bird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="100010" name="哥布林飞机" monsType="3" icon="icon100010" intro="0" resName="S-bird" armName="S-bird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="100011" name="小恐龙" monsType="3" icon="icon100011" intro="0" resName="S_rex" armName="Srex" bFilpx="1" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-rex_hold" nextAniNm="S-rex_hold"/>
+		<animation aniName="S-rex_move" nextAniNm="S-rex_hold"/>
+		<animation aniName="S-rex_attack" nextAniNm="S-rex_hold"/>
+	</mons>
+	<mons id="200001" name="哥布林直升机" monsType="4" icon="icon200001" intro="0" resName="S-bird" armName="S-bird" bFilpx="1" skill1="0" skill2="0" skill3="0">
+		<animation aniName="S-bird_move" nextAniNm="S-bird_move"/>
+	</mons>
+	<mons id="200002" name="巨型食人花" monsType="4" icon="icon200002" intro="0" resName="Largeflower" armName="Largeflower" bFilpx="1" skill1="0" skill2="0" skill3="0">
+		<animation aniName="Largeflower_hold" nextAniNm="Largeflower_hold"/>
+		<animation aniName="Largeflower_move" nextAniNm="Largeflower_hold"/>
+		<animation aniName="Largeflower_attack" nextAniNm="Largeflower_hold"/>
+	</mons>
+	<mons id="200003" name="哥布林火箭筒兵" monsType="4" icon="icon200003" intro="0" resName="huojiantongbing" armName="huojiantongbing" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="huojiantongbing_hold" nextAniNm="huojiantongbing_hold"/>
+		<animation aniName="huojiantongbing_move" nextAniNm="huojiantongbing_hold"/>
+		<animation aniName="huojiantongbing_attack" nextAniNm="huojiantongbing_hold"/>
+	</mons>
+	<mons id="200004" name="藤蔓球" monsType="4" icon="icon200004" intro="0" resName="TMG" armName="TMG" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="TMG_hold" nextAniNm="TMG_hold"/>
+		<animation aniName="TMG_move" nextAniNm="TMG_hold"/>
+		<animation aniName="TMG_attack" nextAniNm="TMG_hold"/>
+	</mons>
+	<mons id="300001" name="巨型伐木机" monsType="5" icon="icon300001" intro="0" resName="juxingfamuji" armName="juxingfamuji" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="Bigbird_attack2" nextAniNm="Bigbird_attack2"/>
+		<animation aniName="juxingfamuji_move" nextAniNm="Bigbird_attack2"/>
+		<animation aniName="juxingfamuji_move" nextAniNm="Bigbird_attack2"/>
+		<animation aniName="juxingfamuji_attack2" nextAniNm="Bigbird_attack2"/>
+	</mons>
+	<mons id="300002" name="巨型树妖" monsType="5" icon="icon300002" intro="0" resName="GiantTree" armName="GiantTree" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="hold" nextAniNm="hold"/>
+		<animation aniName="GoantTree_move" nextAniNm="hold"/>
+		<animation aniName="attack_1" nextAniNm="hold"/>
+		<animation aniName="GiantTree_attack_2" nextAniNm="hold"/>
+		<animation aniName="GiantTree_attack_3" nextAniNm="hold"/>
+	</mons>
+	<mons id="300003" name="霸王龙" monsType="5" icon="icon300003" intro="0" resName="Trex" armName="Trex" bFilpx="1" skill1="0" skill2="0" skill3="0">
+		<animation aniName="Trex_hold" nextAniNm="Trex_hold"/>
+		<animation aniName="Trex_move" nextAniNm="Trex_hold"/>
+		<animation aniName="Trex_attack1" nextAniNm="Trex_hold"/>
+		<animation aniName="Trex_attack2" nextAniNm="Trex_hold"/>
+	</mons>
+	<mons id="300004" name="大鸟" monsType="5" icon="icon300004" intro="0" resName="Bigbird" armName="Bigbird" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="Bigbird_hold" nextAniNm="Bigbird_hold"/>
+		<animation aniName="Bigbird_move" nextAniNm="Bigbird_hold"/>
+		<animation aniName="Bigbird_attack1" nextAniNm="Bigbird_hold"/>
+		<animation aniName="Bigbird_attack2" nextAniNm="Bigbird_hold"/>
+	</mons>
+	<mons id="300005" name="丛林巨猿" monsType="5" icon="icon300005" intro="0" resName="Kingkong" armName="Kingkong" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="Kingkong_hold" nextAniNm="Kingkong_hold"/>
+		<animation aniName="Kingkong_move" nextAniNm="Kingkong_hold"/>
+		<animation aniName="Kingkong_move_2" nextAniNm="Kingkong_hold_up"/>
+		<animation aniName="Kingkong_attack1" nextAniNm="Kingkong_hold_up"/>
+		<animation aniName="Kingkong_attack2" nextAniNm="Kingkong_hold"/>
+		<animation aniName="Kingkong_attack2_up" nextAniNm="Kingkong_hold_up"/>
+		<animation aniName="Kingkong_hold_up" nextAniNm="Kingkong_hold_up"/>
+	</mons>
+	<mons id="300006" name="邪恶哥布林统帅战舰" monsType="5" icon="icon300006" intro="0" resName="Zhanjian" armName="zhanjian" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="zhanjian_hold" nextAniNm="zhanjian_hold"/>
+		<animation aniName="zhanjian_attack" nextAniNm="zhanjian_hold"/>
+	</mons>
+	<mons id="300007" name="邪恶哥布林统帅飞船" monsType="5" icon="icon300007" intro="0" resName="Feichuan" armName="Feichuan" bFilpx="0" skill1="0" skill2="0" skill3="0">
+		<animation aniName="Feichuan_hold" nextAniNm="Feichuan_hold"/>
+		<animation aniName="Feichuan_move" nextAniNm="Feichuan_hold"/>
+		<animation aniName="Feichuan_attack" nextAniNm="Feichuan_hold"/>
+		<animation aniName="Feichuan_attack2" nextAniNm="Feichuan_hold"/>
+	</mons>
+	<mons id="300008" name="变异食人花女王" monsType="5" icon="icon300008" intro="0" resName="flowerqueen" armName="flowerqueen" bFilpx="1" skill1="0" skill2="0" skill3="0">
+		<animation aniName="flowerqueen_hold" nextAniNm="flowerqueen_hold"/>
+		<animation aniName="flowerqueen_hold" nextAniNm="flowerqueen_hold"/>
+		<animation aniName="flowerqueen_attack2" nextAniNm="flowerqueen_hold"/>
+		<animation aniName="flowerqueen_attack2" nextAniNm="flowerqueen_hold"/>
+	</mons>
+</Config>

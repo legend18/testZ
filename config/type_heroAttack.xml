@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 被2011 rel. 2 sp1 (seven) 使用XMLSpy vIBM编辑的 (http://www.altova.com) by -->
+<!--hero 角色职业 1、元素师 2、枪炮师 3、守卫者
+bulletPic 单个子弹的美术资源
+pgMoveType 普通攻击的运动方式
+	1：在攻击轨道区域内沿中心点直线运动
+	2：在攻击轨道区域，系统随机定Y坐标点为初始点，然后直线运动。
+	3：特定的攻击弹道1
+	4：特定的攻击弹道2
+damSizeType  子弹碰撞类型  1:为子弹实际大小、碰撞矩形
+bulletSpace   单次攻击间隔  单位 秒
+bulletDuration   单次攻击内的子弹间隔   单位 秒   若为 -1 则单次攻击就一枚子弹
+bulletDamValue   单个子弹的伤害系数 M   子弹攻击力= M* 角色攻击力-->
+<Config>
+	<type_heroAttack ID="1" hero="1" level="1" bulletPic="bMage_nmBullet1.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="800" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="2" hero="1" level="2" bulletPic="bMage_nmBullet2.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="810" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="3" hero="1" level="3" bulletPic="bMage_nmBullet3.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="820" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="4" hero="1" level="4" bulletPic="bMage_nmBullet4.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="830" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="5" hero="1" level="5" bulletPic="bMage_nmBullet5.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="840" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="6" hero="1" level="6" bulletPic="bMage_nmBullet6.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="850" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="7" hero="1" level="7" bulletPic="bMage_nmBullet7.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="860" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="8" hero="1" level="8" bulletPic="bMage_nmBullet8.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="870" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="9" hero="1" level="9" bulletPic="bMage_nmBullet9.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="880" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="10" hero="1" level="10" bulletPic="bMage_nmBullet10.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="890" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="11" hero="1" level="11" bulletPic="bMage_nmBullet11.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="900" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="12" hero="1" level="12" bulletPic="bMage_nmBullet12.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="910" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="13" hero="1" level="13" bulletPic="bMage_nmBullet13.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="920" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="14" hero="1" level="14" bulletPic="bMage_nmBullet14.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="930" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="15" hero="1" level="15" bulletPic="bMage_nmBullet15.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="940" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="16" hero="1" level="16" bulletPic="bMage_nmBullet16.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="950" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="17" hero="1" level="17" bulletPic="bMage_nmBullet17.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="960" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="18" hero="1" level="18" bulletPic="bMage_nmBullet18.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="970" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="19" hero="1" level="19" bulletPic="bMage_nmBullet19.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="980" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="20" hero="1" level="20" bulletPic="bMage_nmBullet20.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="990" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="21" hero="1" level="21" bulletPic="bMage_nmBullet21.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1000" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="22" hero="1" level="22" bulletPic="bMage_nmBullet22.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1010" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="23" hero="1" level="23" bulletPic="bMage_nmBullet23.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1020" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="24" hero="1" level="24" bulletPic="bMage_nmBullet24.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1030" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="25" hero="1" level="25" bulletPic="bMage_nmBullet25.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1040" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="26" hero="1" level="26" bulletPic="bMage_nmBullet26.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1050" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="27" hero="1" level="27" bulletPic="bMage_nmBullet27.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1060" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="28" hero="1" level="28" bulletPic="bMage_nmBullet28.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1070" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="29" hero="1" level="29" bulletPic="bMage_nmBullet29.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1080" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="30" hero="1" level="30" bulletPic="bMage_nmBullet30.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1090" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="31" hero="1" level="31" bulletPic="bMage_nmBullet31.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1100" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="32" hero="1" level="32" bulletPic="bMage_nmBullet32.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1110" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="33" hero="1" level="33" bulletPic="bMage_nmBullet33.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1120" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="34" hero="1" level="34" bulletPic="bMage_nmBullet34.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1130" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="35" hero="1" level="35" bulletPic="bMage_nmBullet35.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1140" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="36" hero="1" level="36" bulletPic="bMage_nmBullet36.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1150" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="37" hero="1" level="37" bulletPic="bMage_nmBullet37.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1160" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="38" hero="1" level="38" bulletPic="bMage_nmBullet38.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1170" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="39" hero="1" level="39" bulletPic="bMage_nmBullet39.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1180" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="40" hero="1" level="40" bulletPic="bMage_nmBullet40.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1190" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="41" hero="1" level="41" bulletPic="bMage_nmBullet41.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1200" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="42" hero="1" level="42" bulletPic="bMage_nmBullet42.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1210" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="43" hero="1" level="43" bulletPic="bMage_nmBullet43.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1220" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="44" hero="1" level="44" bulletPic="bMage_nmBullet44.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1230" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="45" hero="1" level="45" bulletPic="bMage_nmBullet45.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1240" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="46" hero="1" level="46" bulletPic="bMage_nmBullet46.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1250" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="47" hero="1" level="47" bulletPic="bMage_nmBullet47.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1260" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="48" hero="1" level="48" bulletPic="bMage_nmBullet48.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1270" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="49" hero="1" level="49" bulletPic="bMage_nmBullet49.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1280" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="50" hero="1" level="50" bulletPic="bMage_nmBullet50.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1290" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="51" hero="1" level="51" bulletPic="bMage_nmBullet51.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1300" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="52" hero="1" level="52" bulletPic="bMage_nmBullet52.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1310" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="53" hero="1" level="53" bulletPic="bMage_nmBullet53.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1320" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="54" hero="1" level="54" bulletPic="bMage_nmBullet54.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1330" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="55" hero="1" level="55" bulletPic="bMage_nmBullet55.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1340" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="56" hero="1" level="56" bulletPic="bMage_nmBullet56.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1350" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="57" hero="1" level="57" bulletPic="bMage_nmBullet57.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1360" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="58" hero="1" level="58" bulletPic="bMage_nmBullet58.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1370" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="59" hero="1" level="59" bulletPic="bMage_nmBullet59.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1380" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+	<type_heroAttack ID="60" hero="1" level="60" bulletPic="bMage_nmBullet60.png" damSizeType="1" pgMoveType="1" bulletNum="1" bulletSpeed="1390" bulletSpace="2" bulletDuration="-1" bulletDamValue="1"/>
+</Config>

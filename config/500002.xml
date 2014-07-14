@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Task Name="除魔师的试炼 貮">
+	<Info TaskID = "500002" TypeID="0" >
+        <Property Name="Level" Value="0" />
+        <Property Name="Gold" Value="0" />
+        <Property Name="Diamond" Value="0" />
+        <Property Name="VIP" Value="0" />
+	</Info>
+	<Reward>
+        <Property Name="Gold" Value="1000" />
+        <Property Name="Diamond" Value="0" />
+        <Property Name="EXP" Value="100" />
+	</Reward>
+	<Step ID="0"  Type = "1"  NextDescribe="前往【除魔师总部】，寻找【卡莉】接受试炼任务" DialuogeID="2"  NPCID="101001"  SceneID="2"  State="1">
+	</Step>
+	<Step ID="1"  Type = "2"  NextDescribe="前往【奇境森林】，驱除低级魔物" DialuogeID="3"  NPCID="101001"  SceneID="2"  State="1">
+	</Step>
+	<Step ID="2"  Type = "1"  NextDescribe="找【卡莉】汇报情况，领取测试结果" DialuogeID="4"  NPCID="101001"  SceneID="2"  State="2">
+	</Step>
+	<Dialouge ID="2">
+        <NPCSay txt = "现在公布这次测试的内容！
+        
+        最近有大量低级魔物出现在【奇境森林】中，尚且不知道他们的意图。
+        虽然是低级魔物，但是数量多还是有一定威胁性的存在，为了保证城镇安全，去驱除它们吧！
+        
+        请务必注意安全！
+        从右边的【传送门】，可以直接进入【奇境森林】。"/>
+        <PlayerSay txt = "没问题，交给我来处理吧！" NextID = "1001"/>
+        <PlayerSay txt = "还是放弃吧。。。" NextID = "1002"/>
+    </Dialouge>
+	<Dialouge ID="3">
+        <NPCSay txt = "战斗"/>
+        <PlayerSay txt = "继续" NextID = "1001"/>
+	</Dialouge>
+	<Dialouge ID="4">
+        <NPCSay txt = "竟然出现了中级魔物【玄龟】？看来事情有点麻烦了，必须向长老院报告一下。
+        
+        你能消灭它的确也有些实力！祝贺你顺利通过资格考验~！
+        运用我们的能力保护人类安全是我们必须履行的责任。
+        
+        今后作为一名除魔师，请继续努力哦！
+        "/>
+        <PlayerSay txt = "接受奖励" NextID = "1001"/>
+	</Dialouge>
+</Task>
